@@ -1,0 +1,18 @@
+.job{
+    color: #000;
+}
+.job > button{
+    width: 200px;
+    margin: 40px 50px 0px;
+    height: 45px;
+    border: none;
+    background-color: darkcyan;
+}
+.job >button:hover{
+    background-color: rgb(28, 50, 90);
+    cursor: pointer;
+}
+.job > button >a{
+    text-decoration: none;
+    color: white;
+}

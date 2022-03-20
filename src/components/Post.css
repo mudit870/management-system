@@ -1,0 +1,49 @@
+.post{
+    background-color: white;
+    padding: 15px;
+    margin: 0px 20px 15px;
+    width: 400px;
+    border-radius: 10px;
+}
+
+.post_info{
+    margin-left: 10px;
+}
+.post_info > p{
+    font-size: 16px;
+    margin: 8px 0px;
+    font-weight: 400;
+    overflow-wrap: anywhere;
+}
+.post_info > h2{
+    font-size: 16px;
+    margin: 0;
+}
+.post_info > h4{
+    font-weight: 400;
+    margin: 7px 0px;
+}
+.post_btn{
+    display: flex;
+    margin-top: 20px;
+    justify-content: space-evenly;
+}
+.post_btn > button{
+    border: none;
+    color: aliceblue;
+    height: 35px;
+    width: 100px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.post_btn > p{
+    margin: 0;
+    font-size: 13px;
+    text-align: center;
+}
+.post_btn_accept{
+    background-color: crimson;
+}
+.post_btn_reject{
+    background-color: rgb(84, 190, 57);
+}

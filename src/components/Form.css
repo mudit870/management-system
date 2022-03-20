@@ -1,0 +1,38 @@
+.form{
+    margin: 10px 20px;
+}
+.form > div{
+    margin: 18px 2px;
+}
+input{
+    border: none;
+    height: 30px;
+    width: 200px;
+    padding-left: 8px;
+    border-radius: 2px;
+}
+.form_job_info > label > input{
+    margin-left: 135px;
+}
+.form_job_description > label > input{
+    margin-left: 88px;
+}
+.form_job_address > label > input{
+    margin-left: 140px;
+}
+.form_job_salary > label > input{
+    margin-left: 155px;
+}
+.form_submit_btn > button{
+    border: none;
+    width: 200px;
+    height: 40px;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-left: 100px;    
+    color: aliceblue;
+    background-color: rgb(8, 103, 228);
+}
+.form_submit_btn > button:hover{
+    background-color: rgb(47, 87, 97);
+}
